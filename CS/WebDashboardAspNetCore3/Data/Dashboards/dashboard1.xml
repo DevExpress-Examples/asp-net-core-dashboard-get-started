@@ -28,17 +28,17 @@
         <Dimension DataMember="Picture" DefaultId="DataItem2" />
       </DataItems>
       <GridColumns>
-        <GridDimensionColumn>
+        <GridDimensionColumn Weight="48.3221476510067">
           <Dimension DefaultId="DataItem0" />
         </GridDimensionColumn>
-        <GridDimensionColumn>
+        <GridDimensionColumn Weight="130.43204697986576">
           <Dimension DefaultId="DataItem1" />
         </GridDimensionColumn>
-        <GridDimensionColumn DisplayMode="Image">
+        <GridDimensionColumn Weight="46.2458053691275" DisplayMode="Image">
           <Dimension DefaultId="DataItem2" />
         </GridDimensionColumn>
       </GridColumns>
-      <GridOptions />
+      <GridOptions ColumnWidthMode="Manual" />
     </Grid>
   </Items>
   <LayoutTree>

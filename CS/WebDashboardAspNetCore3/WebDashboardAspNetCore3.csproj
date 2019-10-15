@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.0.415" />
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="19.1.7-pre-19288" />
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="19.2.2-beta-19288" />
   </ItemGroup>
 
   <ItemGroup>
