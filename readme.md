@@ -19,4 +19,4 @@ Restore npm packages to launch the project.
 
 ## More Examples
 
-- [Create an ASP.NET Core 2.0+ Application](https://github.com/DevExpress-Examples/getting-started-create-an-aspnet-core-dashboard-designer-runtime-sample-t569834)
+- [Create an ASP.NET Core 2.1 Application](https://github.com/DevExpress-Examples/getting-started-create-an-aspnet-core-dashboard-designer-runtime-sample-t569834)
