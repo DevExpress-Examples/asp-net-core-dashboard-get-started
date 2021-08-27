@@ -6,8 +6,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Startup.cs](./CS/WebDashboardAspNetCore3/Startup.cs)
-* [Index.html](./CS/WebDashboardAspNetCore3/Views/Home/Index.cshtml)
+* [Startup.cs](./CS/WebDashboardAspNetCore/Startup.cs)
+* [Index.html](./CS/WebDashboardAspNetCore/Views/Home/Index.cshtml)
 <!-- default file list end -->
 
 # Dashboard for ASP.NET Core - Get Started - Create an ASP.NET Core 3.1 Dashboard Application (Runtime sample)
