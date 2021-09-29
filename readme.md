@@ -9,7 +9,7 @@
 
 The example contains the source code of the project created in the step-by-step tutorial: [Create an ASP.NET Core Dashboard Application](https://docs.devexpress.com/Dashboard/119284/get-started/build-web-dashboard-applications/create-an-aspnet-core-dashboard-application).
 
-Restore npm packages to launch the project.
+Restore npm packages to launch the project. Note that the script version on the client must match the version of libraries on the server.
 <!-- default file list -->
 ## Files to Look At
 
