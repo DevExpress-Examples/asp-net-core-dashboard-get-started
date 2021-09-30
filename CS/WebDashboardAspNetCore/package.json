@@ -4,9 +4,9 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "devextreme": "21.2-next",
-    "@devexpress/analytics-core": "21.2-next",
-    "devexpress-dashboard": "21.2-next",
+    "devextreme": "21.2-stable",
+    "@devexpress/analytics-core": "21.2-stable",
+    "devexpress-dashboard": "21.2-stable",
     "jquery-ui-dist": "^1.12.1" 
   }
 }
