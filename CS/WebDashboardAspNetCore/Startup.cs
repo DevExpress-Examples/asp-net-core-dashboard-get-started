@@ -20,13 +20,16 @@ namespace WebDashboardAspNetCore {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
+            // Configures services to use the Web Dashboard Control.
             services
                 .AddDevExpressControls()
-                .AddControllersWithViews()
-                .AddDefaultDashboardController(configurator => {
-                    configurator.SetDashboardStorage(new DashboardFileStorage(FileProvider.GetFileInfo("Data/Dashboards").PhysicalPath));
-                    configurator.SetConnectionStringsProvider(new DashboardConnectionStringsProvider(Configuration));
-                });
+                .AddControllersWithViews();
+            services.AddScoped<DashboardConfigurator>((System.IServiceProvider serviceProvider) => {
+                DashboardConfigurator configurator = new DashboardConfigurator();
+                configurator.SetDashboardStorage(new DashboardFileStorage(FileProvider.GetFileInfo("Data/Dashboards").PhysicalPath));
+                configurator.SetConnectionStringsProvider(new DashboardConnectionStringsProvider(Configuration));
+                return configurator;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,16 +38,17 @@ namespace WebDashboardAspNetCore {
                 app.UseDeveloperExceptionPage();
             } else {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            // Registers the DevExpress middleware.
             app.UseDevExpressControls();
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints => {
-                EndpointRouteBuilderExtension.MapDashboardRoute(endpoints, "api/dashboards");
+                // Maps the dashboard route.
+                EndpointRouteBuilderExtension.MapDashboardRoute(endpoints, "api/dashboard", "DefaultDashboard");
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
