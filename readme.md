@@ -5,9 +5,11 @@
 <!-- default badges end -->
 
 
-# Dashboard for ASP.NET Core - Get Started - Create an ASP.NET Core 3.1 Dashboard Application (Runtime sample)
+# Dashboard for ASP.NET Core - Get Started - Create a Web Dashboard Application (ASP.NET Core 3.1)
 
 The example contains the source code of the project created in the step-by-step tutorial: [Create an ASP.NET Core Dashboard Application](https://docs.devexpress.com/Dashboard/119284/get-started/build-web-dashboard-applications/create-an-aspnet-core-dashboard-application).
+
+The example applies to frameworks **.NET Core 3.1**.
 
 Restore npm packages to launch the project. Note that the script version on the client must match the version of libraries on the server.
 <!-- default file list -->
