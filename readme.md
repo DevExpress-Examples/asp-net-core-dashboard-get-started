@@ -26,4 +26,5 @@ Restore npm packages to launch the project. Note that the script version on the 
 
 ## More Examples
 
+- [Create an ASP.NET MVC Application](https://github.com/DevExpress-Examples/web-dashboard-asp-net-mvc-application)
 - [Create an ASP.NET Core 2.1 Application](https://github.com/DevExpress-Examples/getting-started-create-an-aspnet-core-dashboard-designer-runtime-sample-t569834)
