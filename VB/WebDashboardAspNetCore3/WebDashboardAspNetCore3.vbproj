@@ -1,11 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <OptionExplicit>On</OptionExplicit>
-    <OptionCompare>Binary</OptionCompare>
-    <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
-    <RootNamespace />
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.0.415" />
