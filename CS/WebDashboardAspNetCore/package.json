@@ -7,6 +7,6 @@
     "devextreme": "21.2-stable",
     "@devexpress/analytics-core": "21.2-stable",
     "devexpress-dashboard": "21.2-stable",
-    "jquery-ui-dist": "^1.12.1" 
+    "jquery-ui-dist": "^1.12.1"
   }
 }

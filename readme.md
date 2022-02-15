@@ -5,7 +5,7 @@
 <!-- default badges end -->
 
 
-# Dashboard for ASP.NET Core 3.1 - Get Started
+# Dashboard for ASP.NET Core - Get Started
 
 The example contains the source code of the project created in the step-by-step tutorial: [Create an ASP.NET Core Dashboard Application](https://docs.devexpress.com/Dashboard/119284/get-started/build-web-dashboard-applications/create-an-aspnet-core-dashboard-application).
 
@@ -13,7 +13,7 @@ Restore npm packages to launch the project. Note that the script version on the 
 <!-- default file list -->
 ## Files to Look At
 
-* [Startup.cs](./CS/WebDashboardAspNetCore/Startup.cs)
+* [Program.cs](./CS/WebDashboardAspNetCore/Program.cs)
 * [Index.html](./CS/WebDashboardAspNetCore/Views/Home/Index.cshtml)
 <!-- default file list end -->
 ## Documentation
