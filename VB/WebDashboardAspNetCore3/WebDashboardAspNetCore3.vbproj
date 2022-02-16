@@ -2,11 +2,10 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.0.415" />
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="19.1.13" />
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="21.1.8" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\Dashboards\" />
