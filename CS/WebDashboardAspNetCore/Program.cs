@@ -9,7 +9,7 @@ IFileProvider? fileProvider = builder.Environment.ContentRootFileProvider;
 IConfiguration? configuration = builder.Configuration;
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 builder.Services.AddDevExpressControls();
 builder.Services.AddScoped<DashboardConfigurator>((IServiceProvider serviceProvider) => {
@@ -22,7 +22,8 @@ builder.Services.AddScoped<DashboardConfigurator>((IServiceProvider serviceProvi
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment()) {
+if (!app.Environment.IsDevelopment())
+{
     app.UseExceptionHandler("/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
@@ -32,15 +33,12 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseDevExpressControls();
+EndpointRouteBuilderExtension.MapDashboardRoute(app, "dashboardControl", "DefaultDashboard");
 
 app.UseRouting();
 
 app.UseAuthorization();
 
-EndpointRouteBuilderExtension.MapDashboardRoute(app, "dashboardControl", "DefaultDashboard");
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapRazorPages();
 
 app.Run();

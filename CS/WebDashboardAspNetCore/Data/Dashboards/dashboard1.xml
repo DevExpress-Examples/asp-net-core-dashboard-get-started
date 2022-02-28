@@ -21,24 +21,24 @@
     </SqlDataSource>
   </DataSources>
   <Items>
-    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" ShowCaption="false" DataSource="sqlDataSource1" DataMember="Categories">
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="sqlDataSource1" DataMember="Categories">
       <DataItems>
         <Dimension DataMember="CategoryName" DefaultId="DataItem0" />
-        <Dimension DataMember="Description" DefaultId="DataItem1" />
-        <Dimension DataMember="Picture" DefaultId="DataItem2" />
+        <Dimension DataMember="Description" DefaultId="DataItem2" />
+        <Dimension DataMember="Picture" DefaultId="DataItem3" />
       </DataItems>
       <GridColumns>
-        <GridDimensionColumn Weight="48.3221476510067">
+        <GridDimensionColumn>
           <Dimension DefaultId="DataItem0" />
         </GridDimensionColumn>
-        <GridDimensionColumn Weight="130.43204697986576">
-          <Dimension DefaultId="DataItem1" />
-        </GridDimensionColumn>
-        <GridDimensionColumn Weight="46.2458053691275" DisplayMode="Image">
+        <GridDimensionColumn>
           <Dimension DefaultId="DataItem2" />
         </GridDimensionColumn>
+        <GridDimensionColumn DisplayMode="Image">
+          <Dimension DefaultId="DataItem3" />
+        </GridDimensionColumn>
       </GridColumns>
-      <GridOptions ColumnWidthMode="Manual" />
+      <GridOptions />
     </Grid>
   </Items>
   <LayoutTree>
