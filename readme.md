@@ -10,12 +10,12 @@
 The example contains the source code of the .NET 6 project created in the step-by-step tutorial: [Create an ASP.NET Core Dashboard Application](https://docs.devexpress.com/Dashboard/119284/get-started/build-web-dashboard-applications/create-an-aspnet-core-dashboard-application).
 
 Restore npm packages to launch the project. Note that the script version on the client must match the version of libraries on the server.
-<!-- default file list -->
+
 ## Files to Look At
 
 * [Program.cs](./CS/WebDashboardAspNetCore/Program.cs)
-* [Index.html](./CS/WebDashboardAspNetCore/Views/Home/Index.cshtml)
-<!-- default file list end -->
+* [Index.cshtml](./CS/WebDashboardAspNetCore/Pages/Index.cshtml)
+
 ## Documentation
 
 - [ASP.NET Core Dashboard Control](https://docs.devexpress.com/Dashboard/115163/web-dashboard/aspnet-core-dashboard-control)
