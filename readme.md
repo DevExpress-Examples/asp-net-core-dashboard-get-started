@@ -5,7 +5,7 @@
 <!-- default badges end -->
 
 
-# Dashboard for ASP.NET Core - Get Started (.NET 6)
+# Dashboard for ASP.NET Core - Get Started
 
 The example contains the source code of the .NET 6 project created in the step-by-step tutorial: [Create an ASP.NET Core Dashboard Application](https://docs.devexpress.com/Dashboard/119284/get-started/build-web-dashboard-applications/create-an-aspnet-core-dashboard-application).
 
@@ -24,4 +24,4 @@ Restore npm packages to launch the project. Note that the script version on the 
 
 ## More Examples
 
-- [Dashboard for ASP.NET Core - Configuration for .NET 5](https://github.com/DevExpress-Examples/asp-net-core-dashboard-net-5)
+- [Create an ASP.NET Core 2.1 Application](https://github.com/DevExpress-Examples/getting-started-create-an-aspnet-core-dashboard-designer-runtime-sample-t569834)
