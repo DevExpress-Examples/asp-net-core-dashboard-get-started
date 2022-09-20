@@ -3,17 +3,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
-<<<<<<< HEAD:CS/WebDashboardAspNetCore/WebDashboardAspNetCore.csproj
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="21.1.6" />
-=======
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="19.2.12" />
-=======
     <PackageReference Include="BuildBundlerMinifier" Version="3.0.415" />
     <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="19.1.13" />
->>>>>>> 19.1.7+
->>>>>>> 19.1.7+:CS/WebDashboardAspNetCore3/WebDashboardAspNetCore3.csproj
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\Dashboards\" />
