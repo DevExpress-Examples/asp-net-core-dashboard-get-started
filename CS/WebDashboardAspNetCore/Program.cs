@@ -33,7 +33,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseDevExpressControls();
-EndpointRouteBuilderExtension.MapDashboardRoute(app, "api/dashboard", "DefaultDashboard");
+app.MapDashboardRoute("api/dashboard", "DefaultDashboard");
 
 app.UseRouting();
 
