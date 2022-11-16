@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="21.2.5" />
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="22.2.*" />
   </ItemGroup>
 
   <ItemGroup>
