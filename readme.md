@@ -11,7 +11,7 @@ The example contains the source code of the .NET 6 project created in the step-b
 
 Restore npm packages to launch the project. Note that the script version on the client must match the version of libraries on the server.
 
-## Files to Look At
+## Files to Review
 
 * [Program.cs](./CS/WebDashboardAspNetCore/Program.cs)
 * [Index.cshtml](./CS/WebDashboardAspNetCore/Pages/Index.cshtml)
