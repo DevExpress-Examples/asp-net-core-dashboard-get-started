@@ -11,7 +11,7 @@ The example contains the source code of the .NET 6 project created in the step-b
 
 Restore npm packages to launch the project. Note that the script version on the client must match the version of libraries on the server.
 
-## Files to Look At
+## Files to Review
 
 * [Program.cs](./CS/WebDashboardAspNetCore/Program.cs)
 * [Index.cshtml](./CS/WebDashboardAspNetCore/Pages/Index.cshtml)
@@ -21,7 +21,3 @@ Restore npm packages to launch the project. Note that the script version on the 
 - [ASP.NET Core Dashboard Control](https://docs.devexpress.com/Dashboard/115163/web-dashboard/aspnet-core-dashboard-control)
 - [Server Side Configuration (ASP.NET Core)](https://docs.devexpress.com/Dashboard/119500/web-dashboard/dashboard-backend/server-side-configuration-aspnet-core)
 - [Server-Side API Overview](https://docs.devexpress.com/Dashboard/400362/web-dashboard/aspnet-core-dashboard-control/server-side-api-overview)
-
-## More Examples
-
-- [Create an ASP.NET Core Application for .NET 5](https://github.com/DevExpress-Examples/asp-net-core-dashboard-net-5)
