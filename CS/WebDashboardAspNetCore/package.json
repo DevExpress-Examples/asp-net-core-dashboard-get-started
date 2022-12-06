@@ -5,7 +5,6 @@
   "devDependencies": {
     "devextreme": "22.2-stable",
     "@devexpress/analytics-core": "22.2-stable",
-    "devexpress-dashboard": "22.2-stable",
-    "jquery-ui-dist": "^1.13.0"
+    "devexpress-dashboard": "22.2-stable"
   }
 }
