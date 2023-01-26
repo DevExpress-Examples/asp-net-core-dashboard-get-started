@@ -22,6 +22,3 @@ Restore npm packages to launch the project. Note that the script version on the 
 - [Server Side Configuration (ASP.NET Core)](https://docs.devexpress.com/Dashboard/119500/web-dashboard/dashboard-backend/server-side-configuration-aspnet-core)
 - [Server-Side API Overview](https://docs.devexpress.com/Dashboard/400362/web-dashboard/aspnet-core-dashboard-control/server-side-api-overview)
 
-## More Examples
-
-- [Create an ASP.NET Core Application for .NET 5](https://github.com/DevExpress-Examples/asp-net-core-dashboard-net-5)
