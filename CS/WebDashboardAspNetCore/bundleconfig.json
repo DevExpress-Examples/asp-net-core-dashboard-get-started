@@ -2,7 +2,10 @@
   {
     "outputFileName": "wwwroot/css/site.min.css",
     "inputFiles": [
-      "node_modules/devextreme/dist/css/dx.light.css",
+      "node_modules/ace-builds/css/ace.css",
+      "node_modules/ace-builds/css/theme/dreamweaver.css",
+      "node_modules/ace-builds/css/theme/ambiance.css",
+      "node_modules/devextreme-dist/css/dx.light.css",
       "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
       "node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css",
       "node_modules/@devexpress/analytics-core/dist/css/dx-querybuilder.css",
@@ -22,7 +25,7 @@
       "node_modules/ace-builds/src-min-noconflict/ext-language_tools.js",
       "node_modules/ace-builds/src-min-noconflict/theme-dreamweaver.js",
       "node_modules/ace-builds/src-min-noconflict/theme-ambiance.js",
-      "node_modules/devextreme/dist/js/dx.all.js",
+      "node_modules/devextreme-dist/js/dx.all.js",
       "node_modules/@devexpress/analytics-core/dist/js/dx-analytics-core.min.js",
       "node_modules/@devexpress/analytics-core/dist/js/dx-querybuilder.min.js",
       "node_modules/devexpress-dashboard/dist/js/dx-dashboard.min.js"
