@@ -17,6 +17,18 @@
     }
   },
   {
+    "outputFileName": "wwwroot/css/ace/ace.bundle.css",
+      "inputFiles": [
+          "node_modules/ace-builds/css/ace.css",
+          "node_modules/ace-builds/css/theme/dreamweaver.css",
+          "node_modules/ace-builds/css/theme/ambiance.css"
+      ],
+      "minify": { 
+        "enabled": false, 
+        "adjustRelativePaths": false 
+      }
+    },
+  {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
       "node_modules/jquery/dist/jquery.min.js",
